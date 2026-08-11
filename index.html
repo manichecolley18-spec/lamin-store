@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -14,8 +14,8 @@ h2{text-align:center;margin-bottom:30px;font-size:2em}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:30px}
 .card{background:#fff;border-radius:15px;padding:20px;text-align:center;box-shadow:0 4px 15px rgba(0,0,0,0.1)}
 .gallery{display:flex;gap:8px;justify-content:center;margin-bottom:15px}
-.card img{width:32%;height:180px;object-fit:cover;border-radius:10px;cursor:pointer;transition:0.3s}
-.card img:hover{transform:scale(1.05)}
+.card img{width:32%;height:200px;object-fit:cover;border-radius:10px;cursor:pointer;transition:0.3s;border:2px solid #eee}
+.card img:hover{transform:scale(1.05);border-color:#000}
 .card h3{margin:10px 0;font-size:1.4em}
 .price{color:#e63946;font-weight:bold;font-size:1.6em;margin:8px 0}
 .size{color:#555;font-size:1em;margin-bottom:15px}
@@ -25,13 +25,7 @@ h2{text-align:center;margin-bottom:30px;font-size:2em}
 .whatsapp-btn:hover{background:#128C7E}
 .paypal-btn{background:#0070BA}
 .paypal-btn:hover{background:#003087}
-.label{font-size:0.8em;color:#777}
 footer{background:#000;color:#fff;text-align:center;padding:30px;margin-top:50px}
-
-/* LIGHTBOX FOR ZOOM */
-.lightbox{display:none;position:fixed;z-index:999;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);justify-content:center;align-items:center}
-.lightbox img{max-width:90%;max-height:90%;border-radius:10px}
-.lightbox:target{display:flex}
 </style>
 </head>
 <body>
@@ -40,88 +34,95 @@ footer{background:#000;color:#fff;text-align:center;padding:30px;margin-top:50px
 
 <div class="container">
 
-<h2>👩 Female Jerseys - Streetwear</h2>
+<h2>👩 Female Jerseys</h2>
 <div class="grid">
   <div class="card">
     <div class="gallery">
-      <a href="#img1"><img src="278B51E9-E7F3-4703-B918-22BF52F1E4AA_1_105_c.jpeg" alt="White Front"></a>
-      <a href="#img2"><img src="96B900BA-943E-4685-A10E-E8EC3E8D6F07_1_105_c.jpeg" alt="White Back"></a>
-      <a href="#img3"><img src="C014EE57-D8B9-4B0E-B872-D015C2823933_1_105_c.jpeg" alt="White Side"></a>
+      <img src="278B51E9-E7F3-4703-B918-22BF52F1E4AA_1_105_c.jpeg">
+      <img src="96B900BA-943E-4685-A10E-E8EC3E8D6F07_1_105_c.jpeg">
+      <img src="C014EE57-D8B9-4B0E-B872-D015C2823933_1_105_c.jpeg">
     </div>
     <h3>White Jersey</h3>
     <p class="size">Sizes: S, M, L</p>
     <p class="price">$45</p>
     <div class="btn-group">
       <a href="https://wa.me/393514885953?text=Hi%20I%20want%20White%20Female%20Jersey%20Size:" class="whatsapp-btn">WhatsApp</a>
-      <a href="https://www.paypal.com/paypalme/@lamincolley932/45" class="paypal-btn">Buy $45</a>
+      <a href="https://www.paypal.com/paypalme/lamincolley932/45" class="paypal-btn">Buy $45</a>
     </div>
   </div>
 
   <div class="card">
     <div class="gallery">
-      <a href="#img4"><img src="145920C2-F816-4768-9E29-40F1E4B58DF2_1_105_c.jpeg" alt="Pink Front"></a>
-      <a href="#img5"><img src="85563BDF-7A58-4026-9798-6E20CC2F4D92_1_105_c.jpeg" alt="Pink Back"></a>
-      <a href="#img6"><img src="D0DC527D-C382-4928-87ED-7A9700118E66_1_105_c.jpeg" alt="Pink Side"></a>
+      <img src="145920C2-F816-4768-9E29-40F1E4B58DF2_1_105_c.jpeg">
+      <img src="85563BDF-7A58-4026-9798-6E20CC2F4D92_1_105_c.jpeg">
+      <img src="D0DC527D-C382-4928-87ED-7A9700118E66_1_105_c.jpeg">
     </div>
     <h3>Pink Jersey</h3>
     <p class="size">Sizes: S, M, L</p>
     <p class="price">$45</p>
     <div class="btn-group">
       <a href="https://wa.me/393514885953?text=Hi%20I%20want%20Pink%20Female%20Jersey%20Size:" class="whatsapp-btn">WhatsApp</a>
-      <a href="https://www.paypal.com/paypalme/@lamincolley932/45" class="paypal-btn">Buy $45</a>
+      <a href="https://www.paypal.com/paypalme/lamincolley932/45" class="paypal-btn">Buy $45</a>
     </div>
   </div>
 
   <div class="card">
     <div class="gallery">
-      <a href="#img7"><img src="163BFB2F-B876-4A00-9F5E-5B7F78AB7ADF_1_105_c.jpeg" alt="Purple Front"></a>
-      <a href="#img8"><img src="84567BA7-33FA-44DD-B198-35E423245119_1_105_c.jpeg" alt="Purple Back"></a>
-      <a href="#img9"><img src="D255B359-CBA6-4712-83EC-8B3A43BD0B5C_1_105_c.jpeg" alt="Purple Side"></a>
+      <img src="163BFB2F-B876-4A00-9F5E-5B7F78AB7ADF_1_105_c.jpeg">
+      <img src="84567BA7-33FA-44DD-B198-35E423245119_1_105_c.jpeg">
+      <img src="D255B359-CBA6-4712-83EC-8B3A43BD0B5C_1_105_c.jpeg">
     </div>
     <h3>Purple Jersey</h3>
     <p class="size">Sizes: S, M, L</p>
     <p class="price">$45</p>
     <div class="btn-group">
       <a href="https://wa.me/393514885953?text=Hi%20I%20want%20Purple%20Female%20Jersey%20Size:" class="whatsapp-btn">WhatsApp</a>
-      <a href="https://www.paypal.com/paypalme/@lamincolley932/45" class="paypal-btn">Buy $45</a>
+      <a href="https://www.paypal.com/paypalme/lamincolley932/45" class="paypal-btn">Buy $45</a>
     </div>
   </div>
 </div>
 
-<h2 style="margin-top:60px">👨 Male Jerseys - Streetwear</h2>
+<h2 style="margin-top:60px">👨 Male Jerseys</h2>
 <div class="grid">
   <div class="card">
     <div class="gallery">
-      <a href="#img10"><img src="363CC007-EA8E-4B0D-AE2E-A22277DC659F_1_105_c.jpeg" alt="Black Front"></a>
-      <a href="#img11"><img src="727B083A-0A51-40EB-B7EF-C7E7E99883A3_1_105_c.jpeg" alt="Black Back"></a>
-      <a href="#img12"><img src="DE982D98-C665-4CC7-A6ED-ACAAB88BBA0D_1_105_c.jpeg" alt="Black Side"></a>
+      <img src="363CC007-EA8E-4B0D-AE2E-A22277DC659F_1_105_c.jpeg">
+      <img src="727B083A-0A51-40EB-B7EF-C7E7E99883A3_1_105_c.jpeg">
+      <img src="DE982D98-C665-4CC7-A6ED-ACAAB88BBA0D_1_105_c.jpeg">
     </div>
     <h3>Black Jersey</h3>
     <p class="size">Sizes: M, L</p>
     <p class="price">$50</p>
     <div class="btn-group">
       <a href="https://wa.me/393514885953?text=Hi%20I%20want%20Black%20Male%20Jersey%20Size:" class="whatsapp-btn">WhatsApp</a>
-      <a href="https://www.paypal.com/paypalme/@lamincolley932/50" class="paypal-btn">Buy $50</a>
+      <a href="https://www.paypal.com/paypalme/lamincolley932/50" class="paypal-btn">Buy $50</a>
     </div>
   </div>
 
   <div class="card">
     <div class="gallery">
-      <a href="#img13"><img src="7277FA54-3F94-413B-BE08-A47B590BC9D4_1_105_c.jpeg" alt="Green Front"></a>
-      <a href="#img14"><img src="E1A9CAC3-634A-44BB-ACDD-726A57F19222_1_105_c.jpeg" alt="Green Back"></a>
-      <a href="#img15"><img src="E45BB138-F245-49A5-B303-2D5EBB66D27F_1_105_c.jpeg" alt="Green Side"></a>
+      <img src="7277FA54-3F94-413B-BE08-A47B590BC9D4_1_105_c.jpeg">
+      <img src="E1A9CAC3-634A-44BB-ACDD-726A57F19222_1_105_c.jpeg">
+      <img src="E45BB138-F245-49A5-B303-2D5EBB66D27F_1_105_c.jpeg">
     </div>
     <h3>Green Jersey</h3>
     <p class="size">Sizes: M, L</p>
     <p class="price">$50</p>
     <div class="btn-group">
       <a href="https://wa.me/393514885953?text=Hi%20I%20want%20Green%20Male%20Jersey%20Size:" class="whatsapp-btn">WhatsApp</a>
-      <a href="https://www.paypal.com/paypalme/@lamincolley932/50" class="paypal-btn">Buy $50</a>
+      <a href="https://www.paypal.com/paypalme/lamincolley932/50" class="paypal-btn">Buy $50</a>
     </div>
   </div>
 </div>
 
+<h2 style="margin-top:60px">Contact Us</h2>
+<div class="card">
+<p><b>WhatsApp:</b> +39 351 488 5953<br>
+<b>Instagram:</b> @im_lamin_coly<br>
+<b>Location:</b> Italy<br>
+<b>Shipping:</b> Worldwide</p>
 </div>
-<footer><p>© 2026 LAMIN STORE. All rights reserved.</p></footer>
+</div>
+<footer><p>©️ 2026 LAMIN STORE. All rights reserved.</p></footer>
 </body>
 </html>
